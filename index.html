@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="rechner">
+      <h1>BMI Rechner</h1>
+
+      <p class="para">Deine Geschlecht</p>
+
+      <input
+        id="gewicht"
+        type="number"
+        placeholder="Gibt bitte deine Gewicht in kg an."
+        value=""
+      />
+      <p class="para">Deine Alter</p>
+
+      <input
+        id="körperGröße"
+        type="number"
+        placeholder="Gibt 
+bitte deinen Körpergröße in meter an."
+        value=""
+      />
+
+      <p class="para">Deine Gewicht</p>
+
+      <input
+        id="gewicht"
+        type="number"
+        placeholder="Gibt bitte deine Gewicht in kg an."
+        value=""
+      />
+      <p class="para">Deine Körpergröße</p>
+
+      <input
+        id="körperGröße"
+        type="number"
+        placeholder="Gibt 
+bitte deinen Körpergröße in meter an."
+        value=""
+      />
+
+      <button class="btn" onclick="calcBMI()">Berechne BMI</button>
+
+      <p id="BMI" class="showBMI hidden"></p>
+    </section>
+    <section class="information">
+      <h2>Informaton über BMI</h2>
+      <ul>
+        <li>
+          Der BMI (Body Mass Index) ist ein Maß für die Bewertung des
+          Körpergewichts, indem er das Gewicht in Relation zu der Körpergröße
+          setzt. Aufgrund der einfachen Messung ist die Berechnung des BMI das
+          am häufigsten verwendete Diagnoseverfahren zur Einordnung der
+          Körperlast. Anhand des ermittelten BMI-Werts lässt sich schnell
+          aussagen, ob eine Person Normalgewicht, Übergewicht oder Untergewicht
+          hat.
+        </li>
+        <li>
+          Auch wenn der BMI keine Körperfettanteile berücksichtigt, ist er noch
+          immer das geeigneteste Verfahren zu Gewichtsbewertung und liefert für
+          erwachsene Personen, die weder besonders große Muskelmasse noch
+          Amputationen aufweisen, verlässliche Ergebnisse.
+        </li>
+        <li>
+          Zu Berechnung des Body Mass Indexes wird die relativ einfache
+          BMI-Formel angewandt: BMI=(Gewicht in kg)/(Körpergroße in m)². Der
+          errechnete Wert muss anschließend mit einer Wertetabelle abgeglichen
+          werden, um auswerten zu können, ob eine Person normalgewichtig,
+          übergewichtig oder untergewichtig ist. Die WHO hat hierfür besondere
+          Grenzen definiert, wobei sich für Männer und Frauen unterschiedliche
+          Ergebnisse ergeben. Eine solche Auswertung erhalten Sie in den
+          Ergebnissen nach dem Ausfüllen und Ausführen des BMI-Rechners.
+        </li>
+      </ul>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

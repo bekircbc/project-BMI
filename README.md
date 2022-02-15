@@ -1,5 +1,7 @@
 # BMI Rechner
 
+-[Link of this page](https://bekircbc.github.io/project-BMI)
+
 # Coded by Bekir Cebeci
 
 # Project Start : 14.02.2022

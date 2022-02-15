@@ -11,24 +11,6 @@
     <section class="rechner">
       <h1>BMI Rechner</h1>
 
-      <p class="para">Deine Geschlecht</p>
-
-      <input
-        id="gewicht"
-        type="number"
-        placeholder="Gibt bitte deine Gewicht in kg an."
-        value=""
-      />
-      <p class="para">Deine Alter</p>
-
-      <input
-        id="körperGröße"
-        type="number"
-        placeholder="Gibt 
-bitte deinen Körpergröße in meter an."
-        value=""
-      />
-
       <p class="para">Deine Gewicht</p>
 
       <input
@@ -46,10 +28,13 @@ bitte deinen Körpergröße in meter an."
 bitte deinen Körpergröße in meter an."
         value=""
       />
-
-      <button class="btn" onclick="calcBMI()">Berechne BMI</button>
+      <div class="resetandrechner">
+        <button class="btn" onclick="calcBMI()">Berechne BMI</button>
+        <button class="btn-reset" onclick="resetBMI()">Reset</button>
+      </div>
 
       <p id="BMI" class="showBMI hidden"></p>
+      <p class="ratschlag hidden"></p>
     </section>
     <section class="information">
       <h2>Informaton über BMI</h2>

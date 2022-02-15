@@ -79,6 +79,15 @@ h2 {
   font-size: 24px;
 }
 
+.btn-reset {
+  background-image: linear-gradient(to top left, #9963a3 0%, #945759 100%);
+  color: white;
+  border-radius: 5px;
+  margin: 20px;
+  width: 200px;
+  font-size: 24px;
+}
+
 .btn :hover {
   background-color: gainsboro;
   color: black;
@@ -110,4 +119,25 @@ input {
   font-size: 22px;
   font-weight: 600;
   color: blue;
+}
+
+.resetandrechner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.ratschlag {
+  background-image: linear-gradient(
+    to top left,
+    #6c87af 0%,
+    rgb(84, 158, 158) 100%
+  );
+  align-items: center;
+  text-align: center;
+  width: 400px;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
 }

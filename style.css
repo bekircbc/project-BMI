@@ -141,3 +141,8 @@ input {
   border-radius: 10px;
   padding: 20px;
 }
+
+::placeholder {
+  color: white;
+  font-weight: 400;
+}
